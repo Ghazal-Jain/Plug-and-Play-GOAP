@@ -29,6 +29,12 @@
                 <e p="FSM.cs" t="Include" />
                 <e p="FSMState.cs" t="Include" />
               </e>
+              <e p="GOAP" t="Include">
+                <e p="GoapAction.cs" t="Include" />
+                <e p="GoapAgent.cs" t="Include" />
+                <e p="GoapPlanner.cs" t="Include" />
+                <e p="IGoap.cs" t="Include" />
+              </e>
             </e>
             <e p="Editor" t="Include" />
           </e>

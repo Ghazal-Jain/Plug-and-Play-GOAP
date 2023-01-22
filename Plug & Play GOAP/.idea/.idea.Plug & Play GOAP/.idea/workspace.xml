@@ -19,7 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6b202b5-3762-4cf3-9c91-0fddc3830fc7" name="Default Changelist" comment="" />
+    <list default="true" id="a6b202b5-3762-4cf3-9c91-0fddc3830fc7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Plug &amp; Play GOAP/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Plug &amp; Play GOAP/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Plug &amp; Play GOAP/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Plug &amp; Play GOAP/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Plug &amp; Play GOAP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Plug &amp; Play GOAP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/FSM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/FSM/FSM.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/FSM/FSM.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/FSM/FSMState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/FSM/FSMState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAP/GoapAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAP/GoapAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAP/GoapAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAP/GoapAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAP/GoapPlanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAP/GoapPlanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAP/IGoap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAP/IGoap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,14 +47,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAP/IGoap.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/FSM/FSM.cs" />
         <option value="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/FSM/FSMState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/WorldStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plug &amp; Play GOAP/Scripts/AI/GOAPWorld.cs" />
       </list>
     </option>
   </component>
@@ -78,7 +96,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674079148762</updated>
-      <workItem from="1674079151481" duration="550000" />
+      <workItem from="1674079151481" duration="974000" />
+      <workItem from="1674422130906" duration="796000" />
     </task>
     <servers />
   </component>
@@ -97,6 +116,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

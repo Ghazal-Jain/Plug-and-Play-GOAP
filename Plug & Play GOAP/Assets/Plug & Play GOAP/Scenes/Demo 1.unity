@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18318756, g: 0.22884332, b: 0.30649957, a: 1}
+  m_IndirectSpecularColor: {r: 0.18318754, g: 0.22884332, b: 0.30649954, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -755,6 +755,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4903171446482768}
+  - {fileID: 1087409743}
   - {fileID: 1446259853}
   - {fileID: 378368724}
   - {fileID: 746127745}
@@ -762,7 +763,6 @@ Transform:
   - {fileID: 225983404}
   - {fileID: 41989043}
   - {fileID: 1469995120}
-  - {fileID: 1087409743}
   - {fileID: 906787330}
   - {fileID: 855276245}
   - {fileID: 544953666}
@@ -790,6 +790,7 @@ Transform:
   - {fileID: 1368701553}
   - {fileID: 195279172}
   - {fileID: 1598612013}
+  - {fileID: 1294888904}
   - {fileID: 25721085}
   - {fileID: 1367390202}
   - {fileID: 863874150}
@@ -844,7 +845,6 @@ Transform:
   - {fileID: 573890671}
   - {fileID: 1685469811}
   - {fileID: 956641315}
-  - {fileID: 1294888904}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4481,7 +4481,7 @@ Transform:
   - {fileID: 824303286}
   - {fileID: 1680370756}
   m_Father: {fileID: 157769445}
-  m_RootOrder: 8
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1090363585
 PrefabInstance:
@@ -5298,7 +5298,7 @@ Transform:
   - {fileID: 200164373}
   - {fileID: 1954441762}
   m_Father: {fileID: 157769445}
-  m_RootOrder: 90
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &1367390201
 PrefabInstance:
@@ -6241,6 +6241,43 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1612353654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199233008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c01b2d81ec2dfa498add3ee772c4375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Action
+  cost: 1
+  target: {fileID: 1976530082}
+  targetTag: 
+  duration: 0
+  preConditions: []
+  afterEffects:
+  - key: isWaiting
+    value: 0
+  agent: {fileID: 0}
+  running: 0
+--- !u!114 &1612353655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199233008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a73e424ee79ff4db9bddb8555410b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions: []
+  currentAction: {fileID: 0}
 --- !u!1001 &1618020835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8175,6 +8212,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b88eb630e9e15a4f950eae741685374, type: 3}
+--- !u!1 &1976530082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1208871959118300, guid: e0d3f8289f60e1e49a5d66d5eb8582f3, type: 3}
+  m_PrefabInstance: {fileID: 530251921}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2035900467
 PrefabInstance:
   m_ObjectHideFlags: 0

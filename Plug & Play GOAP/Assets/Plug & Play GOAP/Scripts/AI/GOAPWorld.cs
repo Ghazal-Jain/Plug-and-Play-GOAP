@@ -6,16 +6,25 @@ using UnityEngine;
 
 public sealed class GOAPWorld 
 {
-    private static 
-    // Start is called before the first frame update
-    void Start()
+   private static readonly GOAPWorld instance = new GOAPWorld();
+    public static WorldStates world;
+
+    static GOAPWorld()
     {
-        
+        world = new WorldStates();
     }
 
-    // Update is called once per frame
-    void Update()
+    private GOAPWorld()
     {
-        
+    }
+
+    public static GOAPWorld Instance
+    {
+        get { return instance; }
+    }
+
+    public WorldStates GetWorld()
+    {
+        return world;
     }
 }
